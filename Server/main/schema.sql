@@ -22,8 +22,8 @@ CREATE TABLE comments
 (
     cid SERIAL PRIMARY KEY,
     comment VARCHAR(255),
-    suthor VARCHAR REFERENCES users(username),
+    author VARCHAR REFERENCES users(username),
     user_id INT REFERENCES users(uid),
     post_id INT REFERENCES posts(pid),
     date_created TIMESTAMP
-)
+);

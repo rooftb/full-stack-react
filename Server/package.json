@@ -7,16 +7,16 @@
     "devstart": "nodemon ./bin/www"
   },
   "dependencies": {
-    "clean-css": "^4.2.1",
+    "clean-css": "^4.2.3",
     "constantinople": "^4.0.1",
-    "cookie-parser": "~1.4.4",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
     "express": "~4.16.1",
-    "helmet": "^3.21.1",
+    "helmet": "^3.23.3",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
-    "pg": "^7.12.1"
+    "pg": "^7.18.2"
   }
 }
